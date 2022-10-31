@@ -1,0 +1,41 @@
+.main-block {
+    max-width: 540px;
+    min-height: 460px;
+    padding: 10px 0;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+    background: #ebebeb;
+}
+.btn-ajout {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #1c87c9;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-init {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #F66963;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+li{
+    margin-left: 10px;
+    background-color: #0088bb;
+}

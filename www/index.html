@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="lib/jquery.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.js"></script>
+        <script src="js/index.js"></script>
+        <title>Appli de Gestion de Taches</title>
+    </head>
+    <body>
+    <div class="main-block">
+        <h1>Gestionnaire de Taches</h1>
+        <div style="margin-left: 5%; width: 90%">
+            <input type="text" id="nouvelleTache" placeholder="Entrez le nom de la tache" required>
+            <button class="btn-ajout"
+                    type="submit"
+                    onclick="ajouterTache()" style="background-color: #1c87c9; color: white">
+                Ajouter une Tache
+            </button>
+                <button class="btn-init"
+                        type="submit"
+                        onclick="reinitialiserListetaches()" style="background-color: #F66963; color: white">
+                    Réinitialiser
+                </button>
+            <hr>
+            <ul id="listeTaches" data-role="listview" style="margin-top: 10px;">
+
+            </ul>
+        </div>
+    </div>
+    </body>
+</html>
